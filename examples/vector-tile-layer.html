@@ -2,7 +2,7 @@
 
 <head>
   <meta charset="utf-8" />
-  <title>Esri Leaflet Vector Quickstart</title>
+  <title>Esri Leaflet Vector Tile Layer Example</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <!-- Load Leaflet from CDN -->
@@ -38,7 +38,7 @@
   <script>
     var map = L.map("map", {}).setView([34.0522, -118.2437], 15);
 
-    L.esri.Vector.vectorBasemapLayer("ArcGIS:Streets", {
+    L.esri.Vector.vectorTileLayer("ArcGIS:Streets", {
       apiKey: "< YOUR VALID API KEY HERE >"
     }).addTo(map);
   </script>
