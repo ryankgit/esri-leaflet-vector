@@ -1,5 +1,6 @@
 # Esri Leaflet Vector Tile Plugin
 
+
 [![npm version][npm-img]][npm-url]
 [![apache licensed](https://img.shields.io/badge/license-Apache-green.svg?style=flat-square)](https://raw.githubusercontent.com/Esri/esri-leaflet-vector/master/LICENSE)
 
@@ -7,6 +8,8 @@
 [npm-url]: https://www.npmjs.com/package/esri-leaflet-vector
 
 > A plugin for Esri Leaflet to visualize Vector tiles from ArcGIS Online. Built on top of [`mapbox-gl-js`](https://github.com/mapbox/mapbox-gl-js).
+ 
+_Note: Examples modified to only include **Vector Basemap** and **Vector Tile Layer** example code. See [https://github.com/Esri/esri-leaflet-vector](https://github.com/Esri/esri-leaflet-vector) for full Vector example code._ 
 
 ## Example
 
@@ -119,17 +122,6 @@ L.esri.Vector.vectorTileLayer("SERVICE_URL", {
 3. Install the dependencies with `npm install`.
 4. Run `npm run dev` to compile the raw source inside a newly created `dist` folder and start up a development web server.
     - Alternatively, run `npm run start` to compile raw source code into both "debug" and "production" versions. This process will take longer to compile when saving your local changes to source code. Recommended only when building for production.
-5. Open `examples/quickstart-dev.html` to see local changes in action.
-
-### Advanced Development Instructions
-
-1. [Fork and clone this repo](https://help.github.com/articles/fork-a-repo).
-2. `cd` into the `esri-leaflet-vector` folder.
-3. Install the dependencies with `npm install`.
-4. Run `npm run build` to compile the raw source inside a newly created `dist` folder.
-5. Run `npm test` from the command line to execute tests.
-6. Open `examples/quickstart-dev.html` or `examples/quickstart-prod.html` to see local changes in action.
-7. Create a [pull request](https://help.github.com/articles/creating-a-pull-request) if you'd like to share your work.
 
 ## Dependencies
 
